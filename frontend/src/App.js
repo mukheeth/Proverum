@@ -73,6 +73,13 @@ const AppRoutes = () => {
         <Route path="operations" element={<OperationsSupplyChain />} />
         <Route path="finance" element={<FinanceRevenue />} />
         
+        {/* Data Entry & Management Pages */}
+        <Route path="enrollments" element={<EnrollmentsPage />} />
+        <Route path="patients" element={<PatientsPage />} />
+        <Route path="physicians" element={<PhysiciansPage />} />
+        <Route path="invoices" element={<InvoicesPage />} />
+        <Route path="vac-requests" element={<VACRequestsPage />} />
+        
         {/* Supporting Pages */}
         <Route path="notifications" element={<NotificationsCenter />} />
         <Route path="settings" element={<SettingsPage />} />
